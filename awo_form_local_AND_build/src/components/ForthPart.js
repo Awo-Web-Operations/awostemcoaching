@@ -230,7 +230,7 @@ class ForthPart extends React.Component {
        - - - - - - - - - - - - - - - - - - - - - - - - -
       Source Page:
       Name: ${firstName} ${lastName} 
-      Business name: ${businessName}
+      Preferred name: ${businessName}
       Email: ${email}
       Phone: ${phone}
       Communication preference:  ${communicationPreference} 
@@ -247,8 +247,8 @@ class ForthPart extends React.Component {
     var customerEmailContent = `${greeting}
     ${emailBodyIntro}
     -Cheers,
-    The awostemcoaching Team
-    (858) 305-9541
+    The AWO STEM Coaching Team
+    +1 (858) 305-9541
     https://www.awostemcoaching.com
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     "Digital Marketing ● Website Management ● SE Prep 
