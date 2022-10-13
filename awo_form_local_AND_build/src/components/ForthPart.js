@@ -258,7 +258,7 @@ class ForthPart extends React.Component {
       `
     // fetch('http://awostemcoaching.com/api/nodeEmails', {
 
-    fetch('http://awostemcoaching.herokuapp.com/api/nodeEmails', {
+    fetch('https://awostemcoaching.herokuapp.com/api/nodeEmails', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
@@ -414,7 +414,7 @@ class ForthPart extends React.Component {
 
   sendVerificationCheck = async (number) => {
     // var url = "http://awostemcoaching.com/api/vonage/request";
-    var url = "http://awostemcoaching.herokuapp.com/api/vonage/request";
+    var url = "https://awostemcoaching.herokuapp.com/api/vonage/request";
 
     // console.log(url);
 
@@ -447,7 +447,7 @@ class ForthPart extends React.Component {
     console.log("Entered PIN: " + code + " of type: " + typeof (code));
 
     // var url = "http://awostemcoaching.com/api/vonage/verify";
-    var url = "http://awostemcoaching.herokuapp.com/api/vonage/verify";
+    var url = "https://awostemcoaching.herokuapp.com/api/vonage/verify";
 
     let response = await fetch(url, {
       method: "POST",
@@ -529,7 +529,7 @@ class ForthPart extends React.Component {
   cancelVerificationRequest() {
     console.log("nexom request id: " + nexomReqID);
     // var url = "http://awostemcoaching.com/api/vonage/cancel";
-    var url = "http://localhost:5000/api/vonage/cancel";
+    var url = "https://awostemcoaching.herokuapp.com/api/vonage/cancel";
 
     fetch(url, {
       method: "POST",
