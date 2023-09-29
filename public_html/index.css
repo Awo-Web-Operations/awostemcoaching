@@ -50,6 +50,92 @@ margin-top: -1px;
 	/* text-transform: uppercase; */
 	/* text-align: center */
 }
+.header-btn{
+	background-color: blue;
+	color: white;
+	font-size: 14px;
+	padding: 20px 10px;
+	width: 180px;
+	font-weight: 900;
+}
 
+.inner-1{
+	background: url("https://stratforddemo.files.wordpress.com/2019/08/children-close-up-crowd-764681-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.inner-con {
+	padding-top: 250px;
+}
+.img-cover{
+    background: url('https://stratforddemo.files.wordpress.com/2019/08/academy-celebrate-celebration-267885-1-1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 400px;
 
+}
+.bg-overlay{
+	background: rgb(20, 128, 252);
+	height: 400px;
+	width: 100%;
+	opacity: 0.4;
+}
+.img-text{
+	color: white;
+	position: relative;
+	top: -220px;
+	text-align: center;
 
+}
+.about-bg{
+	background: url("https://stratforddemo.files.wordpress.com/2019/08/auditorium-benches-chairs-207691-1-1.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+
+}
+
+.about-two-column{
+	display: flex;
+	flex-direction: row;
+	gap: 70px;
+	align-content: center;
+	margin-top: 100px;
+}
+
+.wp-block-image{
+    box-sizing: border-box;
+    height: 300px;
+    width: 250px;
+    vertical-align: bottom;
+}
+
+.wp-block-transcript{
+    box-sizing: border-box;
+	padding: 50px 100px 50px 100px;
+	align-items: center;
+	justify-content: center;
+    vertical-align: bottom;
+}
+
+.about-overlay{
+	background: rgb(67, 67, 68);
+	height: 480px;
+	width: 100%;
+	opacity: 0.6;
+}
+.about-text{
+	position: relative;
+	top: -522px;
+	color: white;
+	padding: 0 20px;
+}
+.about-text h4{
+	color: white;
+}
+@media screen and (max-width: 480px) {
+	.colo{
+		flex-basis: 40%;
+	}
+  }
